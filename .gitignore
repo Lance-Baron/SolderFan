@@ -8,6 +8,7 @@
 *~
 _autosave-*
 *.tmp
+*.lck
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
@@ -17,3 +18,4 @@ fp-info-cache
 *.dsn
 *.ses
 *.zip
+ECAD/#auto_saved_files#
