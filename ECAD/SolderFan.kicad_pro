@@ -226,7 +226,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|571500|1244600|e18222fb-d145-4d78-9ba0-bd351a2ae4ea|00000000-0000-0000-0000-000000000000|/1a9dd273-48e5-4ee2-832b-bd1948c3d55b|/1a9dd273-48e5-4ee2-832b-bd1948c3d55b|",
+        "USB port is ment to be plugged in"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -597,6 +602,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
